@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Easyfun2 · 个人主页</title>
+  <meta name="description" content="Easyfun2 的个人主页：关于、项目与文章。WORK HARD, PLAY HARD.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%23b45309'/><text x='50' y='68' font-size='52' text-anchor='middle' fill='%23fdfbf7' font-family='Georgia,serif' font-weight='bold'>E</text></svg>">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到主要内容</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#top">Easyfun2<span class="dot">.</span></a>
+      <nav class="nav" aria-label="主导航">
+        <a href="#about">关于</a>
+        <a href="#projects">项目</a>
+        <a href="#writing">文章</a>
+        <a href="#contact">联系</a>
+      </nav>
+      <button class="theme-toggle" type="button" aria-label="切换深色模式">
+        <span class="icon-sun" aria-hidden="true">☀</span>
+        <span class="icon-moon" aria-hidden="true">☾</span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main" class="container">
+
+    <section id="top" class="hero">
+      <p class="eyebrow">苏州 · Suzhou</p>
+      <h1>你好，我是 <em>Easyfun2</em></h1>
+      <p class="tagline">WORK HARD, PLAY HARD.</p>
+      <p class="lede">
+        在苏州工作与生活，写代码、做作品、记录一点学习与思考。
+        这个主页用来放我的个人介绍、做过的东西，以及写下的文章。
+      </p>
+      <p class="hero-links">
+        <a class="btn btn-primary" href="https://github.com/Easyfun2">GitHub</a>
+        <a class="btn" href="#writing">看文章</a>
+        <a class="btn" href="#projects">看项目</a>
+      </p>
+    </section>
+
+    <section id="about" class="section">
+      <h2><span class="num">01</span>关于我</h2>
+      <!-- TODO: 把下面两段换成你自己的介绍（职业方向、经历、兴趣） -->
+      <p>
+        我是一名开发者，日常与前端和后端打交道：喜欢用 Vue 与 TypeScript 搭界面，
+        也会用 Java、Python 解决业务与数据上的问题。做过的项目里，有业务系统、
+        数据看板，也有随手写的小工具。
+      </p>
+      <p>
+        工作之外，喜欢音乐、旅行和把想法做出来。我相信「做出来」比「想清楚」更重要，
+        所以这里的文章大多来自真实的折腾记录，而不是空洞的总结。
+      </p>
+
+      <dl class="facts">
+        <div>
+          <dt>城市</dt>
+          <dd>苏州 · 中国</dd>
+        </div>
+        <div>
+          <dt>方向</dt>
+          <dd>前端 · 全栈</dd>
+        </div>
+        <div>
+          <dt>状态</dt>
+          <dd>开放交流与合作</dd>
+        </div>
+      </dl>
+    </section>
+
+    <section id="skills" class="section">
+      <h2><span class="num">02</span>技能</h2>
+      <ul class="chips">
+        <li>Vue</li>
+        <li>JavaScript</li>
+        <li>TypeScript</li>
+        <li>Java</li>
+        <li>Python</li>
+        <li>微信小程序</li>
+        <li>Git / GitHub Actions</li>
+      </ul>
+    </section>
+
+    <section id="projects" class="section">
+      <h2><span class="num">03</span>项目</h2>
+      <!-- TODO: 换成你最想展示的项目，描述一句话即可 -->
+      <div class="cards">
+        <a class="card" href="https://github.com/Easyfun2/TWX-KPI-SUMMARY">
+          <h3>TWX-KPI-SUMMARY <span class="lang ts">TypeScript</span></h3>
+          <p>KPI 数据汇总与可视化看板，把零散指标整理成一眼能读懂的图表。</p>
+          <span class="more">查看仓库 →</span>
+        </a>
+        <a class="card" href="https://github.com/Easyfun2/mcp_jira">
+          <h3>mcp_jira <span class="lang vue">Vue</span></h3>
+          <p>围绕 JIRA 的集成工具，配合 MCP 让日常协作更顺手。</p>
+          <span class="more">查看仓库 →</span>
+        </a>
+        <a class="card" href="https://github.com/Easyfun2/TWX-21_Misumi">
+          <h3>TWX-21_Misumi <span class="lang java">Java</span></h3>
+          <p>TWX-21 相关业务系统实现，处理真实的业务与数据流程。</p>
+          <span class="more">查看仓库 →</span>
+        </a>
+        <a class="card" href="https://github.com/Easyfun2/MusicPlayer">
+          <h3>MusicPlayer <span class="lang html">HTML</span></h3>
+          <p>一个网页音乐播放器，练手 Web Audio 与界面交互的小作品。</p>
+          <span class="more">查看仓库 →</span>
+        </a>
+        <a class="card" href="https://github.com/Easyfun2/SELECT">
+          <h3>SELECT <span class="lang py">Python</span></h3>
+          <p>Python 实用工具集，用来处理日常重复的小事。</p>
+          <span class="more">查看仓库 →</span>
+        </a>
+        <a class="card" href="https://github.com/Easyfun2?tab=repositories">
+          <h3>更多仓库 <span class="lang all">GitHub</span></h3>
+          <p>还有小程序、Vue 练习与杂项实验，都在 GitHub 上。</p>
+          <span class="more">去 GitHub 看看 →</span>
+        </a>
+      </div>
+    </section>
+
+    <section id="writing" class="section">
+      <h2><span class="num">04</span>文章</h2>
+      <ul class="posts">
+        <li>
+          <a href="posts/hello-world.html">
+            <time datetime="2026-11-02">2026-11-02</time>
+            <span class="post-title">欢迎来到 Easyfun2 的博客</span>
+            <span class="post-desc">为什么又开了一个页面，以及这里打算写些什么。</span>
+          </a>
+        </li>
+        <li>
+          <a href="posts/build-with-github-pages.html">
+            <time datetime="2026-10-18">2026-10-18</time>
+            <span class="post-title">用 GitHub Pages 搭一个自己的主页</span>
+            <span class="post-desc">零构建、零服务器的方案：一个仓库，一个页面，改完就生效。</span>
+          </a>
+        </li>
+      </ul>
+    </section>
+
+    <section id="contact" class="section">
+      <h2><span class="num">05</span>联系</h2>
+      <p>想聊技术、合作，或者只是打个招呼，都欢迎。</p>
+      <ul class="contact-list">
+        <li><span class="label">GitHub</span><a href="https://github.com/Easyfun2">github.com/Easyfun2</a></li>
+        <li><span class="label">Email</span><a href="mailto:hello@example.com">hello@example.com</a><!-- TODO: 换成你的邮箱 --></li>
+        <li><span class="label">城市</span><span>苏州 · 中国</span></li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year">2026</span> Easyfun2 · 用 GitHub Pages 托管</p>
+      <p class="footer-note">WORK HARD, PLAY HARD.</p>
+    </div>
+  </footer>
+
+  <script src="assets/main.js"></script>
+</body>
+</html>
