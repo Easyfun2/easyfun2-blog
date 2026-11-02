@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://easyfun2.github.io/easyfun2-blog/sitemap.xml

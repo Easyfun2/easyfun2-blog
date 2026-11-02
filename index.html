@@ -4,161 +4,330 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Easyfun2 · 个人主页</title>
-  <meta name="description" content="Easyfun2 的个人主页：关于、项目与文章。WORK HARD, PLAY HARD.">
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%23b45309'/><text x='50' y='68' font-size='52' text-anchor='middle' fill='%23fdfbf7' font-family='Georgia,serif' font-weight='bold'>E</text></svg>">
+  <meta name="description" content="Easyfun2 的个人主页：前端与全栈开发者，苏州。项目、文章与每日热榜。">
+  <link rel="canonical" href="https://easyfun2.github.io/easyfun2-blog/">
+  <meta name="theme-color" content="#17161a">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Easyfun2">
+  <meta property="og:title" content="Easyfun2 · 个人主页">
+  <meta property="og:description" content="前端与全栈开发者，苏州。项目、文章与每日热榜。">
+  <meta property="og:url" content="https://easyfun2.github.io/easyfun2-blog/">
+  <meta property="og:locale" content="zh_CN">
+  <meta property="og:image" content="https://easyfun2.github.io/easyfun2-blog/assets/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://easyfun2.github.io/easyfun2-blog/assets/og-image.png">
+
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="assets/style.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Easyfun2",
+    "url": "https://easyfun2.github.io/easyfun2-blog/",
+    "sameAs": ["https://github.com/Easyfun2"],
+    "address": { "@type": "PostalAddress", "addressLocality": "苏州", "addressCountry": "CN" },
+    "jobTitle": "Developer"
+  }
+  </script>
 </head>
 <body>
   <a class="skip-link" href="#main">跳到主要内容</a>
 
   <header class="site-header">
     <div class="container header-inner">
-      <a class="brand" href="#top">Easyfun2<span class="dot">.</span></a>
+      <a class="brand" href="#top" aria-label="Easyfun2 首页">
+        <span class="brand-mark" aria-hidden="true">E</span>
+        <span class="brand-name">Easyfun2</span>
+      </a>
+
       <nav class="nav" aria-label="主导航">
-        <a href="#about">关于</a>
-        <a href="#projects">项目</a>
-        <a href="#writing">文章</a>
-        <a href="#contact">联系</a>
+        <a href="#about" data-section="about">关于</a>
+        <a href="#projects" data-section="projects">项目</a>
+        <a href="#trending" data-section="trending">热榜</a>
+        <a href="#writing" data-section="writing">文章</a>
+        <a href="#contact" data-section="contact">联系</a>
       </nav>
-      <button class="theme-toggle" type="button" aria-label="切换深色模式">
-        <span class="icon-sun" aria-hidden="true">☀</span>
-        <span class="icon-moon" aria-hidden="true">☾</span>
+
+      <button class="theme-toggle" type="button" aria-label="切换深浅色主题" aria-pressed="false">
+        <svg class="icon-sun" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M12 2.6v2.2M12 19.2v2.2M2.6 12h2.2M19.2 12h2.2M5.2 5.2l1.6 1.6M17.2 17.2l1.6 1.6M18.8 5.2l-1.6 1.6M6.8 17.2l-1.6 1.6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+        <svg class="icon-moon" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="M20.5 14.6A8.6 8.6 0 0 1 9.4 3.5a8.6 8.6 0 1 0 11.1 11.1Z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
       </button>
     </div>
   </header>
 
-  <main id="main" class="container">
+  <main id="main">
 
-    <section id="top" class="hero">
-      <p class="eyebrow">苏州 · Suzhou</p>
-      <h1>你好，我是 <em>Easyfun2</em></h1>
-      <p class="tagline">WORK HARD, PLAY HARD.</p>
-      <p class="lede">
-        在苏州工作与生活，写代码、做作品、记录一点学习与思考。
-        这个主页用来放我的个人介绍、做过的东西，以及写下的文章。
-      </p>
-      <p class="hero-links">
-        <a class="btn btn-primary" href="https://github.com/Easyfun2">GitHub</a>
-        <a class="btn" href="#writing">看文章</a>
-        <a class="btn" href="#projects">看项目</a>
-      </p>
-    </section>
-
-    <section id="about" class="section">
-      <h2><span class="num">01</span>关于我</h2>
-      <!-- TODO: 把下面两段换成你自己的介绍（职业方向、经历、兴趣） -->
-      <p>
-        我是一名开发者，日常与前端和后端打交道：喜欢用 Vue 与 TypeScript 搭界面，
-        也会用 Java、Python 解决业务与数据上的问题。做过的项目里，有业务系统、
-        数据看板，也有随手写的小工具。
-      </p>
-      <p>
-        工作之外，喜欢音乐、旅行和把想法做出来。我相信「做出来」比「想清楚」更重要，
-        所以这里的文章大多来自真实的折腾记录，而不是空洞的总结。
-      </p>
-
-      <dl class="facts">
-        <div>
-          <dt>城市</dt>
-          <dd>苏州 · 中国</dd>
+    <!-- Hero -->
+    <section class="hero" id="top">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Personal site · 2026</p>
+          <h1>Easyfun2</h1>
+          <p class="hero-role">开发者 · 苏州</p>
+          <p class="hero-lede">
+            写代码，也写记录。关注前端工程与全栈实践，平时做业务系统、数据看板和小工具。
+            这里是我的个人主页：项目、文章，以及每天会扫一眼的热榜。
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">查看项目</a>
+            <a class="btn" href="#trending">今日热榜</a>
+            <a class="btn btn-quiet" href="https://github.com/Easyfun2">
+              GitHub
+              <svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+          </div>
         </div>
-        <div>
-          <dt>方向</dt>
-          <dd>前端 · 全栈</dd>
-        </div>
-        <div>
-          <dt>状态</dt>
-          <dd>开放交流与合作</dd>
-        </div>
-      </dl>
-    </section>
 
-    <section id="skills" class="section">
-      <h2><span class="num">02</span>技能</h2>
-      <ul class="chips">
-        <li>Vue</li>
-        <li>JavaScript</li>
-        <li>TypeScript</li>
-        <li>Java</li>
-        <li>Python</li>
-        <li>微信小程序</li>
-        <li>Git / GitHub Actions</li>
-      </ul>
-    </section>
+        <aside class="profile-card" aria-label="个人信息卡">
+          <div class="profile-top">
+            <div class="avatar" aria-hidden="true">EF</div>
+            <div class="profile-id">
+              <strong>Easyfun2</strong>
+              <span>Developer · Full-stack</span>
+            </div>
+          </div>
+          <dl class="profile-meta">
+            <div><dt>城市</dt><dd>苏州，中国</dd></div>
+            <div><dt>方向</dt><dd>前端 · 全栈</dd></div>
+            <div><dt>状态</dt><dd><span class="status-dot" aria-hidden="true"></span>开放交流</dd></div>
+            <div><dt>GitHub</dt><dd><a href="https://github.com/Easyfun2">github.com/Easyfun2</a></dd></div>
+          </dl>
+          <p class="profile-note">WORK HARD, PLAY HARD.</p>
+        </aside>
+      </div>
 
-    <section id="projects" class="section">
-      <h2><span class="num">03</span>项目</h2>
-      <!-- TODO: 换成你最想展示的项目，描述一句话即可 -->
-      <div class="cards">
-        <a class="card" href="https://github.com/Easyfun2/TWX-KPI-SUMMARY">
-          <h3>TWX-KPI-SUMMARY <span class="lang ts">TypeScript</span></h3>
-          <p>KPI 数据汇总与可视化看板，把零散指标整理成一眼能读懂的图表。</p>
-          <span class="more">查看仓库 →</span>
-        </a>
-        <a class="card" href="https://github.com/Easyfun2/mcp_jira">
-          <h3>mcp_jira <span class="lang vue">Vue</span></h3>
-          <p>围绕 JIRA 的集成工具，配合 MCP 让日常协作更顺手。</p>
-          <span class="more">查看仓库 →</span>
-        </a>
-        <a class="card" href="https://github.com/Easyfun2/TWX-21_Misumi">
-          <h3>TWX-21_Misumi <span class="lang java">Java</span></h3>
-          <p>TWX-21 相关业务系统实现，处理真实的业务与数据流程。</p>
-          <span class="more">查看仓库 →</span>
-        </a>
-        <a class="card" href="https://github.com/Easyfun2/MusicPlayer">
-          <h3>MusicPlayer <span class="lang html">HTML</span></h3>
-          <p>一个网页音乐播放器，练手 Web Audio 与界面交互的小作品。</p>
-          <span class="more">查看仓库 →</span>
-        </a>
-        <a class="card" href="https://github.com/Easyfun2/SELECT">
-          <h3>SELECT <span class="lang py">Python</span></h3>
-          <p>Python 实用工具集，用来处理日常重复的小事。</p>
-          <span class="more">查看仓库 →</span>
-        </a>
-        <a class="card" href="https://github.com/Easyfun2?tab=repositories">
-          <h3>更多仓库 <span class="lang all">GitHub</span></h3>
-          <p>还有小程序、Vue 练习与杂项实验，都在 GitHub 上。</p>
-          <span class="more">去 GitHub 看看 →</span>
-        </a>
+      <div class="container">
+        <dl class="stats">
+          <div><dt>公开仓库</dt><dd>15</dd></div>
+          <div><dt>主要项目</dt><dd>06</dd></div>
+          <div><dt>文章</dt><dd>02</dd></div>
+          <div><dt>热榜源</dt><dd>04</dd></div>
+        </dl>
       </div>
     </section>
 
-    <section id="writing" class="section">
-      <h2><span class="num">04</span>文章</h2>
-      <ul class="posts">
-        <li>
-          <a href="posts/hello-world.html">
-            <time datetime="2026-11-02">2026-11-02</time>
-            <span class="post-title">欢迎来到 Easyfun2 的博客</span>
-            <span class="post-desc">为什么又开了一个页面，以及这里打算写些什么。</span>
-          </a>
-        </li>
-        <li>
-          <a href="posts/build-with-github-pages.html">
-            <time datetime="2026-10-18">2026-10-18</time>
-            <span class="post-title">用 GitHub Pages 搭一个自己的主页</span>
-            <span class="post-desc">零构建、零服务器的方案：一个仓库，一个页面，改完就生效。</span>
-          </a>
-        </li>
-      </ul>
+    <!-- About -->
+    <section class="section" id="about">
+      <div class="container">
+        <header class="section-head">
+          <p class="section-label"><span>01</span> 关于</p>
+          <h2>在苏州，写代码与记录</h2>
+        </header>
+        <div class="about-grid">
+          <div class="about-text">
+            <!-- TODO: 换成你自己的经历与介绍 -->
+            <p>
+              我是一名开发者，日常工作横跨前端与后端：用 Vue 和 TypeScript 搭界面，
+              用 Java、Python 处理业务与数据。做过业务系统、数据看板，也写过不少随手可用的小工具。
+            </p>
+            <p>
+              比起把一件事想清楚，我更相信先把它做出来——所以这里的文章多来自真实的折腾记录，
+              而不是转述的结论。工作之外，音乐、旅行和把想法变成能跑的东西，占据了我大部分时间。
+            </p>
+          </div>
+          <dl class="facts">
+            <div><dt>当前关注</dt><dd>前端工程化 · 全栈实践</dd></div>
+            <div><dt>常用技术</dt><dd>Vue / TypeScript / Java / Python</dd></div>
+            <div><dt>写作主题</dt><dd>技术复盘 · 项目记录</dd></div>
+            <div><dt>开放合作</dt><dd>技术交流 · 项目协作</dd></div>
+          </dl>
+        </div>
+      </div>
     </section>
 
-    <section id="contact" class="section">
-      <h2><span class="num">05</span>联系</h2>
-      <p>想聊技术、合作，或者只是打个招呼，都欢迎。</p>
-      <ul class="contact-list">
-        <li><span class="label">GitHub</span><a href="https://github.com/Easyfun2">github.com/Easyfun2</a></li>
-        <li><span class="label">Email</span><a href="mailto:hello@example.com">hello@example.com</a><!-- TODO: 换成你的邮箱 --></li>
-        <li><span class="label">城市</span><span>苏州 · 中国</span></li>
-      </ul>
+    <!-- Skills -->
+    <section class="section" id="skills">
+      <div class="container">
+        <header class="section-head">
+          <p class="section-label"><span>02</span> 技能</p>
+          <h2>常用工具与技术栈</h2>
+        </header>
+        <ul class="chips">
+          <li>Vue</li>
+          <li>JavaScript</li>
+          <li>TypeScript</li>
+          <li>Java</li>
+          <li>Python</li>
+          <li>微信小程序</li>
+          <li>Git</li>
+          <li>GitHub Actions</li>
+        </ul>
+      </div>
     </section>
 
+    <!-- Projects -->
+    <section class="section" id="projects">
+      <div class="container">
+        <header class="section-head">
+          <p class="section-label"><span>03</span> 项目</p>
+          <h2>做过的东西</h2>
+        </header>
+        <!-- TODO: 换成你最想展示的项目 -->
+        <div class="projects">
+          <a class="project" href="https://github.com/Easyfun2/TWX-KPI-SUMMARY">
+            <span class="project-head">
+              <span class="project-name">TWX-KPI-SUMMARY</span>
+              <span class="tag">TypeScript</span>
+            </span>
+            <span class="project-desc">KPI 数据汇总与可视化看板，把零散指标整理成一眼能读懂的图表。</span>
+            <span class="project-foot">GitHub <span aria-hidden="true">↗</span></span>
+          </a>
+          <a class="project" href="https://github.com/Easyfun2/mcp_jira">
+            <span class="project-head">
+              <span class="project-name">mcp_jira</span>
+              <span class="tag">Vue</span>
+            </span>
+            <span class="project-desc">围绕 JIRA 的集成工具，配合 MCP 让日常协作与信息同步更顺手。</span>
+            <span class="project-foot">GitHub <span aria-hidden="true">↗</span></span>
+          </a>
+          <a class="project" href="https://github.com/Easyfun2/TWX-21_Misumi">
+            <span class="project-head">
+              <span class="project-name">TWX-21_Misumi</span>
+              <span class="tag">Java</span>
+            </span>
+            <span class="project-desc">TWX-21 相关业务系统实现，覆盖真实的业务与数据流程。</span>
+            <span class="project-foot">GitHub <span aria-hidden="true">↗</span></span>
+          </a>
+          <a class="project" href="https://github.com/Easyfun2/MusicPlayer">
+            <span class="project-head">
+              <span class="project-name">MusicPlayer</span>
+              <span class="tag">HTML</span>
+            </span>
+            <span class="project-desc">网页音乐播放器，练习 Web Audio 与界面交互的小作品。</span>
+            <span class="project-foot">GitHub <span aria-hidden="true">↗</span></span>
+          </a>
+          <a class="project" href="https://github.com/Easyfun2/SELECT">
+            <span class="project-head">
+              <span class="project-name">SELECT</span>
+              <span class="tag">Python</span>
+            </span>
+            <span class="project-desc">Python 实用工具集，用来处理日常重复的小事。</span>
+            <span class="project-foot">GitHub <span aria-hidden="true">↗</span></span>
+          </a>
+          <a class="project" href="https://github.com/Easyfun2?tab=repositories">
+            <span class="project-head">
+              <span class="project-name">更多仓库</span>
+              <span class="tag">GitHub</span>
+            </span>
+            <span class="project-desc">小程序、Vue 练习与杂项实验，都在 GitHub 上。</span>
+            <span class="project-foot">前往 GitHub <span aria-hidden="true">↗</span></span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Trending -->
+    <section class="section" id="trending">
+      <div class="container">
+        <header class="section-head section-head-row">
+          <div>
+            <p class="section-label"><span>04</span> 热榜</p>
+            <h2>我每天扫一眼的信息源</h2>
+          </div>
+          <a class="source-link" href="https://github.com/Easyfun2/easyfun2-blog/blob/main/data/hot.json">数据说明 ↗</a>
+        </header>
+
+        <div class="trending-card">
+          <div class="tabs" role="tablist" aria-label="热榜来源">
+            <button class="tab is-active" role="tab" aria-selected="true" data-source="zhihu" id="tab-zhihu" aria-controls="trending-panel">知乎热榜</button>
+            <button class="tab" role="tab" aria-selected="false" data-source="hupu" id="tab-hupu" aria-controls="trending-panel">虎扑热榜</button>
+            <button class="tab" role="tab" aria-selected="false" data-source="weibo" id="tab-weibo" aria-controls="trending-panel">微博热搜</button>
+            <button class="tab" role="tab" aria-selected="false" data-source="toutiao" id="tab-toutiao" aria-controls="trending-panel">今日头条</button>
+          </div>
+
+          <div class="trending-panel" id="trending-panel" role="tabpanel" aria-labelledby="tab-zhihu" aria-live="polite">
+            <ol class="trending-list" id="trending-list">
+              <li class="skeleton-row"><span class="skeleton rank"></span><span class="skeleton line"></span><span class="skeleton heat"></span></li>
+              <li class="skeleton-row"><span class="skeleton rank"></span><span class="skeleton line"></span><span class="skeleton heat"></span></li>
+              <li class="skeleton-row"><span class="skeleton rank"></span><span class="skeleton line"></span><span class="skeleton heat"></span></li>
+              <li class="skeleton-row"><span class="skeleton rank"></span><span class="skeleton line"></span><span class="skeleton heat"></span></li>
+              <li class="skeleton-row"><span class="skeleton rank"></span><span class="skeleton line"></span><span class="skeleton heat"></span></li>
+            </ol>
+          </div>
+
+          <footer class="trending-foot">
+            <span id="trending-updated">正在获取数据…</span>
+            <span class="trending-source">数据来源：今日热榜 API</span>
+          </footer>
+        </div>
+      </div>
+    </section>
+
+    <!-- Writing -->
+    <section class="section" id="writing">
+      <div class="container">
+        <header class="section-head">
+          <p class="section-label"><span>05</span> 文章</p>
+          <h2>写下的记录</h2>
+        </header>
+        <ul class="posts">
+          <li>
+            <a href="posts/hello-world.html">
+              <time datetime="2026-11-02">2026-11-02</time>
+              <span class="post-main">
+                <span class="post-title">欢迎来到 Easyfun2 的博客</span>
+                <span class="post-desc">为什么又开了一个页面，以及这里打算写些什么。</span>
+              </span>
+              <span class="post-arrow" aria-hidden="true">→</span>
+            </a>
+          </li>
+          <li>
+            <a href="posts/build-with-github-pages.html">
+              <time datetime="2026-10-18">2026-10-18</time>
+              <span class="post-main">
+                <span class="post-title">用 GitHub Pages 搭一个自己的主页</span>
+                <span class="post-desc">零构建、零服务器的方案：一个仓库，一个页面，改完就生效。</span>
+              </span>
+              <span class="post-arrow" aria-hidden="true">→</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section" id="contact">
+      <div class="container">
+        <header class="section-head">
+          <p class="section-label"><span>06</span> 联系</p>
+          <h2>想聊技术、合作，或只是打个招呼</h2>
+        </header>
+        <div class="contact-grid">
+          <a class="contact-card" href="https://github.com/Easyfun2">
+            <span class="contact-label">GitHub</span>
+            <span class="contact-value">github.com/Easyfun2</span>
+          </a>
+          <a class="contact-card" href="mailto:hello@example.com">
+            <span class="contact-label">Email</span>
+            <span class="contact-value">hello@example.com</span>
+            <span class="contact-hint">占位邮箱，待替换</span>
+          </a>
+          <div class="contact-card contact-card-static">
+            <span class="contact-label">所在地</span>
+            <span class="contact-value">苏州，中国</span>
+            <span class="contact-hint">UTC+8</span>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
 
   <footer class="site-footer">
     <div class="container footer-inner">
-      <p>© <span id="year">2026</span> Easyfun2 · 用 GitHub Pages 托管</p>
-      <p class="footer-note">WORK HARD, PLAY HARD.</p>
+      <div class="footer-brand">
+        <span class="brand-mark" aria-hidden="true">E</span>
+        <span>© <span id="year">2026</span> Easyfun2</span>
+      </div>
+      <nav class="footer-nav" aria-label="页脚导航">
+        <a href="https://github.com/Easyfun2">GitHub</a>
+        <a href="https://github.com/Easyfun2/easyfun2-blog">站内源码</a>
+        <a href="#top">回到顶部 ↑</a>
+      </nav>
     </div>
   </footer>
 

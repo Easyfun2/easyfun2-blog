@@ -1,0 +1,509 @@
+{
+  "updatedAt": "2026-11-02T16:11:21.337Z",
+  "sources": {
+    "zhihu": {
+      "name": "知乎热榜",
+      "updatedAt": "2026-11-02T16:11:20.688Z",
+      "items": [
+        {
+          "title": "美国一公务机在居民区坠毁致9死，距特朗普的海湖庄园仅七八公里，具体情况如何？可能是什么原因？",
+          "url": "https://www.zhihu.com/question/2100501083466326367",
+          "hot": 16140000,
+          "label": ""
+        },
+        {
+          "title": "美国一邮轮推出 246 万元起「终身旅居」套餐，2 年后因燃油成本乘客被赶下船，怎么看邮轮的毁约行为？",
+          "url": "https://www.zhihu.com/question/2100494142325223777",
+          "hot": 9310000,
+          "label": ""
+        },
+        {
+          "title": "如何看待南京一助教老师休息日爬山5小时未回工作消息遭辞退？「休息日定时查看3次工作号」的要求合法吗？",
+          "url": "https://www.zhihu.com/question/2100514068792661637",
+          "hot": 6240000,
+          "label": ""
+        },
+        {
+          "title": "网友发现罗技广告又以狗比喻用户，客服回应已展开调查，为什么继此前舆论风波后还会出现这种情况？",
+          "url": "https://www.zhihu.com/question/2100514761490129595",
+          "hot": 5580000,
+          "label": ""
+        },
+        {
+          "title": "如何看待即使在山河四省，也有很多高中生疯狂玩游戏，抄作业，早恋，摆烂，最后全凭高考分数考上985的？",
+          "url": "https://www.zhihu.com/question/2097354391070291569",
+          "hot": 5450000,
+          "label": ""
+        },
+        {
+          "title": "第二届苏超结束，流量断崖下跌，这个比赛未来还有新的破局增长点吗，未来这个比赛将立足于哪里？",
+          "url": "https://www.zhihu.com/question/2100539974781071970",
+          "hot": 3680000,
+          "label": ""
+        },
+        {
+          "title": "Bin 赛后采访称「都说 Zeus 是世一上，今天我击败了他就接替了他的位置」对此你有什么想说的？",
+          "url": "https://www.zhihu.com/question/2100542237821986644",
+          "hot": 3340000,
+          "label": ""
+        },
+        {
+          "title": "微软大裁员后许多印度裔员工的上班vlog被扒，上班即食堂、锻炼打球等是真的吗？真实的职场环境是怎样的？",
+          "url": "https://www.zhihu.com/question/2100586352018284799",
+          "hot": 2290000,
+          "label": ""
+        },
+        {
+          "title": "砍完人就收进剑鞘，剑不会臭吗？",
+          "url": "https://www.zhihu.com/question/2095907153181505492",
+          "hot": 2260000,
+          "label": ""
+        },
+        {
+          "title": "币安被盗资产已补回 90%，剩余 10% 因流动性较低暂未补齐，此次事件还有哪些问题需要解决？",
+          "url": "https://www.zhihu.com/question/2100144466690405284",
+          "hot": 1950000,
+          "label": ""
+        },
+        {
+          "title": "美国中期选举临近，捐款榜前十里七家倒向共和党，支持率却不如民主党，为啥金钱失去了以往一锤定音的威力？",
+          "url": "https://www.zhihu.com/question/2099494216397054526",
+          "hot": 1880000,
+          "label": ""
+        },
+        {
+          "title": "地球上的动物为什么很多都进化出“睡觉”这一习性？",
+          "url": "https://www.zhihu.com/question/2069724416724952593",
+          "hot": 1810000,
+          "label": ""
+        },
+        {
+          "title": "联想指纹加密 U 盘被曝拆壳即可明文读取数据，为何硬件加密会形同虚设？",
+          "url": "https://www.zhihu.com/question/2100532447242932373",
+          "hot": 1710000,
+          "label": ""
+        },
+        {
+          "title": "微软向 6 万名员工开放自愿离职方案，为何连 Copilot 部门也成重灾区？",
+          "url": "https://www.zhihu.com/question/2098769070032164639",
+          "hot": 1420000,
+          "label": ""
+        },
+        {
+          "title": "离职了 前同事直接问我找到工作没怎么回复呀？",
+          "url": "https://www.zhihu.com/question/659496375",
+          "hot": 1380000,
+          "label": ""
+        },
+        {
+          "title": "Homme 总结 S16 失利「我没能很好地解读版本，心里满怀愧疚」HLE 的失利他责任有多大？",
+          "url": "https://www.zhihu.com/question/2100542718195627833",
+          "hot": 1350000,
+          "label": ""
+        },
+        {
+          "title": "如何评价影之刃零？",
+          "url": "https://www.zhihu.com/question/2099860363948905962",
+          "hot": 1280000,
+          "label": ""
+        },
+        {
+          "title": "谁最可能成为中国首位登月航天员，他的历史地位将会如何？",
+          "url": "https://www.zhihu.com/question/2099963603109651279",
+          "hot": 1250000,
+          "label": ""
+        },
+        {
+          "title": "gpt越来越不行了，是为什么？",
+          "url": "https://www.zhihu.com/question/1905941578591211859",
+          "hot": 1170000,
+          "label": ""
+        },
+        {
+          "title": "如何看待 Rookie 采访称「我想成为第二个世界赛双冠中单选手，想要 iG 再次夺冠重振联赛」？",
+          "url": "https://www.zhihu.com/question/2100541815300388555",
+          "hot": 1130000,
+          "label": ""
+        }
+      ]
+    },
+    "hupu": {
+      "name": "虎扑热榜",
+      "updatedAt": "2026-11-02T16:11:20.955Z",
+      "items": [
+        {
+          "title": "录音曝光 | 美国女飞行员坠毁前求救，绝望大喊“我们要死了”",
+          "url": "https://bbs.hupu.com/643558682.html",
+          "hot": null,
+          "label": 50
+        },
+        {
+          "title": "前几天发现的我老婆的聊天记录",
+          "url": "https://bbs.hupu.com/643557676.html",
+          "hot": null,
+          "label": 50
+        },
+        {
+          "title": "武汉被堵网约车司机事件：狂欢不是没教养的遮羞布",
+          "url": "https://bbs.hupu.com/643550711.html",
+          "hot": null,
+          "label": 50
+        },
+        {
+          "title": "打过一次球后时隔两个月再联系",
+          "url": "https://bbs.hupu.com/643568352.html",
+          "hot": null,
+          "label": 7
+        },
+        {
+          "title": "惊呆了，张作霖的女儿，张学良的妹妹，竟然还在世。 ​​​",
+          "url": "https://bbs.hupu.com/643550904.html",
+          "hot": null,
+          "label": 50
+        },
+        {
+          "title": "武汉万圣节后续",
+          "url": "https://bbs.hupu.com/643568366.html",
+          "hot": null,
+          "label": 9
+        },
+        {
+          "title": "网红诬告榜一大哥强奸，大哥拍视频收集证据",
+          "url": "https://bbs.hupu.com/643552331.html",
+          "hot": null,
+          "label": 44
+        },
+        {
+          "title": "关于吐槽下属做事逻辑的后续讨论",
+          "url": "https://bbs.hupu.com/643550416.html",
+          "hot": null,
+          "label": 50
+        },
+        {
+          "title": "横店的好日子是到头了啊",
+          "url": "https://bbs.hupu.com/643548987.html",
+          "hot": null,
+          "label": 50
+        },
+        {
+          "title": "如何看待武汉万圣夜发生打砸无辜车辆这个事件",
+          "url": "https://bbs.hupu.com/643547242.html",
+          "hot": null,
+          "label": 50
+        },
+        {
+          "title": "星巴克消费入座这事的回旋镖越来越多了——1，星巴克一下子损失了无数客户，但经济损失却为零。2，据我亲眼观察，周日晚上的6:55，诺大一个星巴克，只有几个消费者。3，坐在我旁边一男子刚坐下，星巴克店员就",
+          "url": "https://bbs.hupu.com/643559921.html",
+          "hot": null,
+          "label": 50
+        },
+        {
+          "title": "震惊！广东前三季人均GDP，只有5市高于全国平均值",
+          "url": "https://bbs.hupu.com/643567246.html",
+          "hot": null,
+          "label": 14
+        },
+        {
+          "title": "不要再吵了，感觉她下一秒会缺氧晕倒。。。",
+          "url": "https://bbs.hupu.com/643554041.html",
+          "hot": null,
+          "label": 8
+        },
+        {
+          "title": "这样的挑战哪里有？",
+          "url": "https://bbs.hupu.com/643550876.html",
+          "hot": null,
+          "label": 12
+        },
+        {
+          "title": "如果皇太极没猝死，清初的大屠杀能否避免或大幅减少？",
+          "url": "https://bbs.hupu.com/643566024.html",
+          "hot": null,
+          "label": 6
+        },
+        {
+          "title": "欠钱的才是大爷！",
+          "url": "https://bbs.hupu.com/643548787.html",
+          "hot": null,
+          "label": 37
+        },
+        {
+          "title": "胡适：如此作战，我情愿亡国，也不主张对日作战！",
+          "url": "https://bbs.hupu.com/643550551.html",
+          "hot": null,
+          "label": 50
+        },
+        {
+          "title": "女朋友和闺蜜聊天记录",
+          "url": "https://bbs.hupu.com/643560903.html",
+          "hot": null,
+          "label": 15
+        },
+        {
+          "title": "JRS，我也要离婚了",
+          "url": "https://bbs.hupu.com/643549596.html",
+          "hot": null,
+          "label": 36
+        },
+        {
+          "title": "现在这样的行情，说说你的持仓，一起聊聊",
+          "url": "https://bbs.hupu.com/643558349.html",
+          "hot": null,
+          "label": 43
+        }
+      ]
+    },
+    "weibo": {
+      "name": "微博热搜",
+      "updatedAt": "2026-11-02T16:11:21.137Z",
+      "items": [
+        {
+          "title": "2027或是最舒服年",
+          "url": "https://s.weibo.com/weibo?q=%232027%E6%88%96%E6%98%AF%E6%9C%80%E8%88%92%E6%9C%8D%E5%B9%B4%23&t=31&band_rank=1&Refer=top",
+          "hot": 1001605,
+          "label": ""
+        },
+        {
+          "title": "后会友期提名",
+          "url": "https://s.weibo.com/weibo?q=%E5%90%8E%E4%BC%9A%E5%8F%8B%E6%9C%9F%E6%8F%90%E5%90%8D&t=31&band_rank=1&Refer=top",
+          "hot": 749885,
+          "label": ""
+        },
+        {
+          "title": "2026年世界互联网大会乌镇峰会",
+          "url": "https://s.weibo.com/weibo?q=%232026%E5%B9%B4%E4%B8%96%E7%95%8C%E4%BA%92%E8%81%94%E7%BD%91%E5%A4%A7%E4%BC%9A%E4%B9%8C%E9%95%87%E5%B3%B0%E4%BC%9A%23&t=31&band_rank=1&Refer=top",
+          "hot": 588211,
+          "label": ""
+        },
+        {
+          "title": "文吉儿王子璇 诡异",
+          "url": "https://s.weibo.com/weibo?q=%E6%96%87%E5%90%89%E5%84%BF%E7%8E%8B%E5%AD%90%E7%92%87%20%E8%AF%A1%E5%BC%82&t=31&band_rank=1&Refer=top",
+          "hot": 276149,
+          "label": ""
+        },
+        {
+          "title": "新华社追问国乒男队怎么了",
+          "url": "https://s.weibo.com/weibo?q=%23%E6%96%B0%E5%8D%8E%E7%A4%BE%E8%BF%BD%E9%97%AE%E5%9B%BD%E4%B9%92%E7%94%B7%E9%98%9F%E6%80%8E%E4%B9%88%E4%BA%86%23&t=31&band_rank=1&Refer=top",
+          "hot": 275919,
+          "label": "新"
+        },
+        {
+          "title": "肖战成毅广播电视精品创作大会VCR",
+          "url": "https://s.weibo.com/weibo?q=%23%E8%82%96%E6%88%98%E6%88%90%E6%AF%85%E5%B9%BF%E6%92%AD%E7%94%B5%E8%A7%86%E7%B2%BE%E5%93%81%E5%88%9B%E4%BD%9C%E5%A4%A7%E4%BC%9AVCR%23&t=31&band_rank=1&Refer=top",
+          "hot": 275631,
+          "label": "新"
+        },
+        {
+          "title": "红果短剧刷到天亮",
+          "url": "https://s.weibo.com/weibo?q=%E7%BA%A2%E6%9E%9C%E7%9F%AD%E5%89%A7%E5%88%B7%E5%88%B0%E5%A4%A9%E4%BA%AE&t=31&band_rank=1&Refer=top",
+          "hot": 275412,
+          "label": "新"
+        },
+        {
+          "title": "青稚白小纯对摄影师发火",
+          "url": "https://s.weibo.com/weibo?q=%23%E9%9D%92%E7%A8%9A%E7%99%BD%E5%B0%8F%E7%BA%AF%E5%AF%B9%E6%91%84%E5%BD%B1%E5%B8%88%E5%8F%91%E7%81%AB%23&t=31&band_rank=1&Refer=top",
+          "hot": 274791,
+          "label": "新"
+        },
+        {
+          "title": "社保欠缴逾期不缴可罚1至3倍",
+          "url": "https://s.weibo.com/weibo?q=%23%E7%A4%BE%E4%BF%9D%E6%AC%A0%E7%BC%B4%E9%80%BE%E6%9C%9F%E4%B8%8D%E7%BC%B4%E5%8F%AF%E7%BD%9A1%E8%87%B33%E5%80%8D%23&t=31&band_rank=1&Refer=top",
+          "hot": 274539,
+          "label": ""
+        },
+        {
+          "title": "1113万弃奖奖金已纳入彩票公益金",
+          "url": "https://s.weibo.com/weibo?q=%231113%E4%B8%87%E5%BC%83%E5%A5%96%E5%A5%96%E9%87%91%E5%B7%B2%E7%BA%B3%E5%85%A5%E5%BD%A9%E7%A5%A8%E5%85%AC%E7%9B%8A%E9%87%91%23&t=31&band_rank=1&Refer=top",
+          "hot": 274410,
+          "label": "新"
+        },
+        {
+          "title": "马天宇仅互关评论后的杨幂",
+          "url": "https://s.weibo.com/weibo?q=%E9%A9%AC%E5%A4%A9%E5%AE%87%E4%BB%85%E4%BA%92%E5%85%B3%E8%AF%84%E8%AE%BA%E5%90%8E%E7%9A%84%E6%9D%A8%E5%B9%82&t=31&band_rank=1&Refer=top",
+          "hot": 273782,
+          "label": "热"
+        },
+        {
+          "title": "张雪重庆大学开价被学生嫌弃",
+          "url": "https://s.weibo.com/weibo?q=%E5%BC%A0%E9%9B%AA%E9%87%8D%E5%BA%86%E5%A4%A7%E5%AD%A6%E5%BC%80%E4%BB%B7%E8%A2%AB%E5%AD%A6%E7%94%9F%E5%AB%8C%E5%BC%83&t=31&band_rank=1&Refer=top",
+          "hot": 273444,
+          "label": "新"
+        },
+        {
+          "title": "瑞幸新联名放真人被吐槽",
+          "url": "https://s.weibo.com/weibo?q=%E7%91%9E%E5%B9%B8%E6%96%B0%E8%81%94%E5%90%8D%E6%94%BE%E7%9C%9F%E4%BA%BA%E8%A2%AB%E5%90%90%E6%A7%BD&t=31&band_rank=1&Refer=top",
+          "hot": 273247,
+          "label": "新"
+        },
+        {
+          "title": "长沙烈士公园穿和服带武士刀拍照",
+          "url": "https://s.weibo.com/weibo?q=%E9%95%BF%E6%B2%99%E7%83%88%E5%A3%AB%E5%85%AC%E5%9B%AD%E7%A9%BF%E5%92%8C%E6%9C%8D%E5%B8%A6%E6%AD%A6%E5%A3%AB%E5%88%80%E6%8B%8D%E7%85%A7&t=31&band_rank=1&Refer=top",
+          "hot": 273068,
+          "label": ""
+        },
+        {
+          "title": "陆毅家大部分钱应该都是鲍蕾赚的吧",
+          "url": "https://s.weibo.com/weibo?q=%23%E9%99%86%E6%AF%85%E5%AE%B6%E5%A4%A7%E9%83%A8%E5%88%86%E9%92%B1%E5%BA%94%E8%AF%A5%E9%83%BD%E6%98%AF%E9%B2%8D%E8%95%BE%E8%B5%9A%E7%9A%84%E5%90%A7%23&t=31&band_rank=1&Refer=top",
+          "hot": 272478,
+          "label": ""
+        },
+        {
+          "title": "Jennie与男伴亲密贴脸",
+          "url": "https://s.weibo.com/weibo?q=%23Jennie%E4%B8%8E%E7%94%B7%E4%BC%B4%E4%BA%B2%E5%AF%86%E8%B4%B4%E8%84%B8%23&t=31&band_rank=1&Refer=top",
+          "hot": 272403,
+          "label": ""
+        },
+        {
+          "title": "8岁女孩课间被同学冲撞至脑死亡",
+          "url": "https://s.weibo.com/weibo?q=%238%E5%B2%81%E5%A5%B3%E5%AD%A9%E8%AF%BE%E9%97%B4%E8%A2%AB%E5%90%8C%E5%AD%A6%E5%86%B2%E6%92%9E%E8%87%B3%E8%84%91%E6%AD%BB%E4%BA%A1%23&t=31&band_rank=1&Refer=top",
+          "hot": 263509,
+          "label": "新"
+        },
+        {
+          "title": "美股",
+          "url": "https://s.weibo.com/weibo?q=%E7%BE%8E%E8%82%A1&t=31&band_rank=1&Refer=top",
+          "hot": 251577,
+          "label": ""
+        },
+        {
+          "title": "迪丽热巴黄明昊 从前有只鲸",
+          "url": "https://s.weibo.com/weibo?q=%E8%BF%AA%E4%B8%BD%E7%83%AD%E5%B7%B4%E9%BB%84%E6%98%8E%E6%98%8A%20%E4%BB%8E%E5%89%8D%E6%9C%89%E5%8F%AA%E9%B2%B8&t=31&band_rank=1&Refer=top",
+          "hot": 226065,
+          "label": ""
+        },
+        {
+          "title": "新娘退场摔倒新郎还在沉浸式撒娃娃",
+          "url": "https://s.weibo.com/weibo?q=%23%E6%96%B0%E5%A8%98%E9%80%80%E5%9C%BA%E6%91%94%E5%80%92%E6%96%B0%E9%83%8E%E8%BF%98%E5%9C%A8%E6%B2%89%E6%B5%B8%E5%BC%8F%E6%92%92%E5%A8%83%E5%A8%83%23&t=31&band_rank=1&Refer=top",
+          "hot": 222759,
+          "label": "新"
+        }
+      ]
+    },
+    "toutiao": {
+      "name": "今日头条",
+      "updatedAt": "2026-11-02T16:11:21.337Z",
+      "items": [
+        {
+          "title": "股票回购增持再贷款率降至1%",
+          "url": "https://api.toutiaoapi.com/feoffline/amos_land/new/html/main/index.html?topic_id=7703107226365853750",
+          "hot": 15596393,
+          "label": ""
+        },
+        {
+          "title": "A股将迎千亿级增量资金",
+          "url": "https://api.toutiaoapi.com/feoffline/amos_land/new/html/main/index.html?topic_id=7703570400688475689",
+          "hot": 14112200,
+          "label": ""
+        },
+        {
+          "title": "一批重大工程建设正酣",
+          "url": "https://api.toutiaoapi.com/feoffline/amos_land/new/html/main/index.html?topic_id=7702652501526531625",
+          "hot": 12769246,
+          "label": ""
+        },
+        {
+          "title": "男子彩票中1113万过期2天兑奖被拒",
+          "url": "https://api.toutiaoapi.com/feoffline/amos_land/new/html/main/index.html?topic_id=7703435058945802259",
+          "hot": 11554092,
+          "label": ""
+        },
+        {
+          "title": "伊朗最高领袖赋予政府谈判权限",
+          "url": "https://api.toutiaoapi.com/feoffline/amos_land/new/html/main/index.html?topic_id=7703576385864008201",
+          "hot": 10454574,
+          "label": ""
+        },
+        {
+          "title": "俄3000亿欧元海外资产还能拿回来吗",
+          "url": "https://api.toutiaoapi.com/feoffline/amos_land/new/html/main/index.html?topic_id=7703566699894672959",
+          "hot": 9459690,
+          "label": ""
+        },
+        {
+          "title": "黄金价格暴跌背后的全球资本巨变",
+          "url": "https://api.toutiaoapi.com/feoffline/amos_land/new/html/main/index.html?topic_id=7703560216603790867",
+          "hot": 8559482,
+          "label": ""
+        },
+        {
+          "title": "牛弹琴：内塔尼亚胡很可能被赶下台",
+          "url": "https://api.toutiaoapi.com/feoffline/amos_land/new/html/main/index.html?topic_id=7702474317904445481",
+          "hot": 7744939,
+          "label": ""
+        },
+        {
+          "title": "我国已达到世界地空导弹武器系统前列",
+          "url": "https://api.toutiaoapi.com/feoffline/amos_land/new/html/main/index.html?topic_id=7703393254695551514",
+          "hot": 7007911,
+          "label": ""
+        },
+        {
+          "title": "普京批准中俄一项铁路共建协定",
+          "url": "https://api.toutiaoapi.com/feoffline/amos_land/new/html/main/index.html?topic_id=7703337778645368859",
+          "hot": 6341020,
+          "label": ""
+        },
+        {
+          "title": "网民编造花260万登顶珠峰被罚",
+          "url": "https://api.toutiaoapi.com/feoffline/amos_land/new/html/main/index.html?topic_id=7703391910693748772",
+          "hot": 5737592,
+          "label": ""
+        },
+        {
+          "title": "胡明轩拿下23分2板4助",
+          "url": "https://api.toutiaoapi.com/feoffline/amos_land/new/html/main/index.html?topic_id=7702834446407532595",
+          "hot": 5191588,
+          "label": ""
+        },
+        {
+          "title": "比亚迪102万员工意味着什么",
+          "url": "https://api.toutiaoapi.com/feoffline/amos_land/new/html/main/index.html?topic_id=7703511333857136138",
+          "hot": 4697543,
+          "label": ""
+        },
+        {
+          "title": "克林顿现身民主党竞选活动",
+          "url": "https://api.toutiaoapi.com/feoffline/amos_land/new/html/main/index.html?topic_id=7703549761902772762",
+          "hot": 4250512,
+          "label": ""
+        },
+        {
+          "title": "汪峰晒和四个孩子的合照",
+          "url": "https://api.toutiaoapi.com/feoffline/amos_land/new/html/main/index.html?topic_id=7703489014783655963",
+          "hot": 3846023,
+          "label": ""
+        },
+        {
+          "title": "新华社发文：国乒男队怎么了",
+          "url": "https://api.toutiaoapi.com/feoffline/amos_land/new/html/main/index.html?topic_id=7703574649028018214",
+          "hot": 3480025,
+          "label": ""
+        },
+        {
+          "title": "时隔两年金融监管部门再次护盘",
+          "url": "https://api.toutiaoapi.com/feoffline/amos_land/new/html/main/index.html?topic_id=7703579185251356201",
+          "hot": 3148857,
+          "label": ""
+        },
+        {
+          "title": "月嫂阿姨下户前最后一次哄睡宝宝",
+          "url": "https://api.toutiaoapi.com/feoffline/amos_land/new/html/main/index.html?topic_id=7703433370277232676",
+          "hot": 2849204,
+          "label": ""
+        },
+        {
+          "title": "女孩表演喷火遇上互动感超强的观众",
+          "url": "https://api.toutiaoapi.com/feoffline/amos_land/new/html/main/index.html?topic_id=7703168079899050534",
+          "hot": 2578066,
+          "label": ""
+        },
+        {
+          "title": "老人家门口离世 邻居用衣服轻轻盖住",
+          "url": "https://api.toutiaoapi.com/feoffline/amos_land/new/html/main/index.html?topic_id=7703036537876857395",
+          "hot": 2332730,
+          "label": ""
+        }
+      ]
+    }
+  }
+}
