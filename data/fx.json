@@ -1,0 +1,13 @@
+{
+  "pair": "USD/CNY",
+  "base": "USD",
+  "quote": "CNY",
+  "updatedAt": "2026-11-03T06:09:21.453Z",
+  "rate": 6.6722,
+  "prevClose": 6.6482,
+  "change": 0.024,
+  "changePct": 0.361,
+  "quoteTime": "2026-11-03 14:08:01",
+  "source": "新浪财经",
+  "sourceUrl": "https://finance.sina.com.cn/money/forex/hq/USDCNY.shtml"
+}

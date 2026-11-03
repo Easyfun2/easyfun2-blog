@@ -1,5 +1,5 @@
 /* Easyfun2 · personal site
-   1) 深浅色主题  2) 导航高亮  3) 热榜数据渲染 */
+   1) 深浅色主题  2) 汇率  3) 导航高亮  4) 热榜数据渲染 */
 
 (function () {
   'use strict';
@@ -39,6 +39,84 @@
 
   var year = document.getElementById('year');
   if (year) year.textContent = String(new Date().getFullYear());
+
+  /* ---------------- usd/cny rate ---------------- */
+
+  var fx = document.getElementById('fx');
+
+  if (fx) {
+    var fxRate = document.getElementById('fx-rate');
+    var fxChange = document.getElementById('fx-change');
+    var fxArrow = document.getElementById('fx-arrow');
+    var fxChangeText = document.getElementById('fx-change-text');
+    var fxUpdated = document.getElementById('fx-updated');
+
+    var pad2 = function (n) { return String(n).padStart(2, '0'); };
+
+    function formatFxTime(value) {
+      if (!value) return '';
+      var text = String(value);
+      // 支持新浪的「2026-11-03 14:06:01」和备用接口的 RFC 时间
+      var date = /^\d{4}-\d{2}-\d{2} \d{2}:\d{2}/.test(text)
+        ? new Date(text.replace(' ', 'T'))
+        : new Date(text);
+      if (isNaN(date.getTime())) return text;
+      return pad2(date.getMonth() + 1) + '-' + pad2(date.getDate()) + ' ' + pad2(date.getHours()) + ':' + pad2(date.getMinutes());
+    }
+
+    function renderFx(data) {
+      if (!data || !Number.isFinite(Number(data.rate))) throw new Error('bad fx payload');
+
+      fxRate.textContent = Number(data.rate).toFixed(4);
+
+      var change = Number(data.change);
+      var pct = Number(data.changePct);
+      if (data.change === null || data.change === undefined || isNaN(change) || isNaN(pct)) {
+        fxChange.hidden = true;
+      } else {
+        var direction = change > 0 ? 'is-up' : change < 0 ? 'is-down' : '';
+        fxChange.hidden = false;
+        fxChange.className = 'fx-change' + (direction ? ' ' + direction : '');
+        fxArrow.textContent = change > 0 ? '▲' : change < 0 ? '▼' : '·';
+        fxChangeText.textContent =
+          (change > 0 ? '+' : '') + change.toFixed(4) + ' · ' +
+          (pct > 0 ? '+' : '') + pct.toFixed(2) + '%';
+      }
+
+      var when = formatFxTime(data.quoteTime || data.updatedAt);
+      var source = data.source ? '数据来源：' + data.source : '';
+      fxUpdated.textContent = (when ? '更新于 ' + when : '当前汇率') + (source ? ' · ' + source : '');
+      fxRate.removeAttribute('title');
+      if (data.quoteTime) fxRate.setAttribute('title', '行情时间 ' + data.quoteTime);
+    }
+
+    function loadFxFallback() {
+      // data/fx.json 获取失败时，直接向免 Key 的公开接口取参考汇率
+      fetch('https://open.er-api.com/v6/latest/USD', { cache: 'no-store' })
+        .then(function (response) {
+          if (!response.ok) throw new Error('HTTP ' + response.status);
+          return response.json();
+        })
+        .then(function (data) {
+          renderFx({
+            rate: data && data.rates && data.rates.CNY,
+            source: 'ExchangeRate-API（参考汇率）',
+            quoteTime: data && data.time_last_update_utc
+          });
+        })
+        .catch(function () {
+          fxUpdated.textContent = '汇率数据暂时不可用';
+        });
+    }
+
+    fetch('data/fx.json?t=' + Date.now(), { cache: 'no-store' })
+      .then(function (response) {
+        if (!response.ok) throw new Error('HTTP ' + response.status);
+        return response.json();
+      })
+      .then(renderFx)
+      .catch(loadFxFallback);
+  }
 
   /* ---------------- navigation highlight ---------------- */
 

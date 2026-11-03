@@ -109,6 +109,28 @@
           <div><dt>热榜源</dt><dd>04</dd></div>
         </dl>
       </div>
+
+      <!-- 汇率：数据由 GitHub Actions 定时写入 data/fx.json -->
+      <div class="container">
+        <div class="fx-card" id="fx" aria-live="polite">
+          <div class="fx-id">
+            <span class="fx-pair">USD / CNY</span>
+            <span class="fx-name">美元兑人民币</span>
+          </div>
+          <div class="fx-quote">
+            <span class="fx-rate" id="fx-rate">—</span>
+            <span class="fx-unit">CNY</span>
+            <span class="fx-change" id="fx-change" hidden>
+              <span class="fx-arrow" id="fx-arrow" aria-hidden="true"></span>
+              <span id="fx-change-text"></span>
+            </span>
+          </div>
+          <div class="fx-foot">
+            <span class="fx-updated" id="fx-updated">正在获取汇率…</span>
+            <a class="fx-source" href="https://github.com/Easyfun2/easyfun2-blog/blob/main/data/fx.json">数据说明 ↗</a>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- About -->

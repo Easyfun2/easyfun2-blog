@@ -16,11 +16,14 @@ Easyfun2 的个人主页 —— 纯静态站点，托管在 GitHub Pages。
 │   └── build-with-github-pages.html
 ├── assets/
 │   ├── style.css                 # 全站样式（改 :root 变量即可换主题色）
-│   ├── main.js                   # 深浅色主题 / 导航高亮 / 热榜渲染
+│   ├── main.js                   # 深浅色主题 / 汇率 / 导航高亮 / 热榜渲染
 │   └── favicon.svg
 ├── data/hot.json                 # 热榜数据（由 GitHub Actions 每 20 分钟更新）
+├── data/fx.json                  # 美元/人民币汇率（由 GitHub Actions 每小时更新）
 ├── scripts/fetch-hot.mjs         # 抓取热榜的脚本
+├── scripts/fetch-fx.mjs          # 抓取汇率的脚本
 ├── .github/workflows/update-hot.yml
+├── .github/workflows/update-fx.yml
 ├── robots.txt / sitemap.xml
 └── .nojekyll                     # 跳过 Jekyll，直接按静态文件发布
 ```
@@ -33,6 +36,7 @@ Easyfun2 的个人主页 —— 纯静态站点，托管在 GitHub Pages。
 | 关于我 | `index.html` 的 `#about`（有 `TODO` 注释） |
 | 技能标签 | `index.html` 的 `.chips` |
 | 项目卡片 | `index.html` 的 `#projects` |
+| 美元汇率卡片 | `index.html` 的 `#fx`（数据在 `data/fx.json`） |
 | 联系方式 / 邮箱 | `index.html` 的 `#contact`（邮箱目前是占位 `hello@example.com`） |
 | 主题色 | `assets/style.css` 的 `--accent`（浅色 / 深色各一处） |
 
@@ -54,6 +58,19 @@ Easyfun2 的个人主页 —— 纯静态站点，托管在 GitHub Pages。
 - 单个平台失败时保留上次数据，不会整站失败；
 - 手动刷新：Actions 页面点 `Run workflow`，或本地 `node scripts/fetch-hot.mjs` 后提交。
 
+## 汇率数据怎么来的
+
+首页的「美元兑人民币」卡片和热榜一样，走「Actions 抓取 → 写 JSON → 页面读取」：
+
+1. `.github/workflows/update-fx.yml` 每小时（整点后第 7 分钟）跑一次；
+2. `scripts/fetch-fx.mjs` 抓新浪财经实时外汇行情（`fx_susdcny`），写入 `data/fx.json`，包含最新价、昨收、涨跌额与涨跌幅；
+3. 提交后 GitHub Pages 重新发布，卡片显示「更新于 …」与「数据来源」；
+4. 页面拿不到 `data/fx.json` 时，`assets/main.js` 会直接向 `open.er-api.com` 取当日参考汇率兜底。
+
+- 新浪抓取失败时保留旧数据，不会把线上文件写坏；
+- 汇率没变化时不产生提交；
+- 手动刷新：Actions 里点 `Run workflow`，或本地 `node scripts/fetch-fx.mjs` 后提交。
+
 ## 本地预览
 
 ```sh
@@ -61,7 +78,7 @@ python3 -m http.server 8000
 # 打开 http://localhost:8000
 ```
 
-带热榜数据的预览需要先跑一次 `node scripts/fetch-hot.mjs`（需要 Node 20+，无需安装依赖）。
+带热榜、汇率数据的预览需要先跑一次 `node scripts/fetch-hot.mjs` 和 `node scripts/fetch-fx.mjs`（需要 Node 20+，无需安装依赖）。
 
 ## 部署
 
